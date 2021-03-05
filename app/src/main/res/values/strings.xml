@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Shopping</string>
+    <string name="produtos_cadastro">Produtos</string>
+    <string name="produtos">Produtos</string>
+    <string name="nome">Nome</string>
+    <string name="preco">Preço</string>
+    <string name="adicionar_produto">Adicionar Produto</string>
 </resources>

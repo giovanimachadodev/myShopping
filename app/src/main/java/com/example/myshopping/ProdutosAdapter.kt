@@ -10,6 +10,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myshopping.model.Produto
+import kotlinx.android.synthetic.main.activity_adicionar_item.view.*
 
 class ProdutosAdapter(private val listaProdutos: MutableList<Produto> ) : RecyclerView.Adapter<ProdutosAdapter.ProdutosHolder>() {
     fun adicionarProduto(listaProdutos: MutableList<Produto>, produto: Produto){

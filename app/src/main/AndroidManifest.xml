@@ -9,11 +9,14 @@
             android:roundIcon="@drawable/ic_carrinho_de_compras"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".ListaActivity">
+        <activity android:name=".ListaActivity"
+        android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".AdicionarItemActivity">
+        <activity android:name=".AdicionarItemActivity"
+        android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+        android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

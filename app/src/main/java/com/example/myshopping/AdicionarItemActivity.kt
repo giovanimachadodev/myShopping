@@ -28,6 +28,7 @@ class AdicionarItemActivity : AppCompatActivity() {
             startActivity(telaLista)
             nomeProduto.setText("")
             preco.setText("")
+            nomeProduto.requestFocus()
 //            salvarProduto()
 
         }
